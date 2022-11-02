@@ -4,12 +4,14 @@ package org.example
  * @author ${user.name}
  */
 object App {
-  
-  def foo(x : Array[String]) = x.foldLeft("")((a,b) => a + b)
-  
   def main(args : Array[String]) {
-    println( "Hello World!" )
-    println("concat arguments = " + foo(args))
+    //val str1 = "Hello Scala!"
+    var str2 = "Hello Scala!"
+    println( str2 )
+    println( str2.reverse )
+    println( str2.toLowerCase )
+    //println( str2.init )
+    println( str2.replace("!"," ") )
+    println( str2.replace("!"," ") + "and goodbye python!")
   }
-
 }
