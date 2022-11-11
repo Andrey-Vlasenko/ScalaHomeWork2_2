@@ -15,7 +15,7 @@ object App {
     println( str2.toLowerCase )
     println( str2.replace("!","") )
     println( str2.replace("!"," ") + "and goodbye python!")
-/*
+
     //3.b
     print("Enter year salary: ")
     var salary = readDouble().toInt
@@ -24,7 +24,7 @@ object App {
     print("Enter food compensation: ")
     var food = readDouble().toInt
     println( (salary*(1+bonus)+food)* 0.87 / 12.0)
-*/
+
     //3.c
     var arrSalaries = scala.collection.mutable.MutableList(100, 150, 200, 80, 120, 75)
     var avgSalary = arrSalaries.sum/arrSalaries.size.toFloat
